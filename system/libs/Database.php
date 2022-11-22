@@ -15,6 +15,23 @@
       $statement->execute();
       return $statement->fetchAll();
     }
+    public function insert($table,$data){
+      $keys= implode(",", array_keys($data));
+
+            $values=":".implode(", :", array_keys($data));
+
+            
+
+            $sql="INSERT INTO $table($keys) VALUE($values)";
+
+            $statement=$this->prepare($sql);
+
+            foreach($data as $key=> $value){
+                $statement->bindValue(":$key",$value);
+              }
+
+              return $statement->execute();
+    }
     }
 
 ?>

@@ -19,6 +19,10 @@
              return $this->db->select($sql,$data);
              
          }
+         public function insertcategory($table_category_product,$data){
+            return $this->db->insert($table_category_product,$data);
+            
+         }
         
        
     }
