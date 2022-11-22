@@ -14,6 +14,8 @@
             include_once './system/libs/'.$class.'.php';
         });
         include_once ('./app/config/confg.php');
+
+        $main=new Main();
         // include_once ('./system/libs/DController.php');
         // include_once ('./system/libs/Database.php');
         // include_once ('./system/libs/DModel.php');
@@ -24,34 +26,34 @@
        
        // $main = new Main();
 
-        $url=isset($_GET['url'])? $_GET['url']:NULL;
+        // $url=isset($_GET['url'])? $_GET['url']:NULL;
         
-        if($url!=NULL){
-            $url=rtrim($url, '/');
-            $url=explode('/',filter_var($url, FILTER_SANITIZE_URL));
-        }else{
-            unset($url);
-        }
+        // if($url!=NULL){
+        //     $url=rtrim($url, '/');
+        //     $url=explode('/',filter_var($url, FILTER_SANITIZE_URL));
+        // }else{
+        //     unset($url);
+        // }
 
 
 
-        if(isset($url[0])){
-            include_once ('./app/controllers/'.$url[0].'.php');
-            $ctrlr=new $url[0]();
-            if(isset($url[2])){
-                $ctrlr->{$url[1]}($url[2]);
-            }else{
-                if(isset($url[1])){
-                    $ctrlr->{$url[1]}();
-                }else{
+        // if(isset($url[0])){
+        //     include_once ('./app/controllers/'.$url[0].'.php');
+        //     $ctrlr=new $url[0]();
+        //     if(isset($url[2])){
+        //         $ctrlr->{$url[1]}($url[2]);
+        //     }else{
+        //         if(isset($url[1])){
+        //             $ctrlr->{$url[1]}();
+        //         }else{
 
-                }
-            }
-        }else{
-            include_once ('./app/controllers/index.php');
-            $index=new index();
-            $index->homepage();
-        }
+        //         }
+        //     }
+        // }else{
+        //     include_once ('./app/controllers/index.php');
+        //     $index=new index();
+        //     $index->homepage();
+        // }
 
         
         

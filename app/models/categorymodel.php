@@ -5,8 +5,8 @@
             parent::__construct();
             
         }
-        public function category($table_category_product){
-            $sql="SELECT*FROM $table_category_product";
+        public function category($table){
+            $sql="SELECT*FROM $table ORDER BY id_category_product DESC";
             return $this->db->select($sql);
          
          }
