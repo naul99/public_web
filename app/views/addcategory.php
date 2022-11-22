@@ -1,4 +1,4 @@
-<form autocomplete="off" action="http://localhost/blogs_ecommerce/category/insertcategory" method="POST">
+<form autocomplete="off" action="<?php echo BASE_URL?>/category/insertcategory" method="POST">
 
     <?php
         if(isset($msg)){

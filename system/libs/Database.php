@@ -32,6 +32,28 @@
 
               return $statement->execute();
     }
+    public function update($table,$data,$cond){
+      $updateKeys=NULL;
+      foreach($data as $key=> $value){
+        $updateKeys .="$key=:$key,";
+      }
+      $updateKeys=rtrim($updateKeys,",");
+      $sql="UPDATE $table SET $updateKeys WHERE $cond";
+      $statement=$this->prepare($sql); 
+
+      foreach($data as $key=> $value){
+        $statement->bindValue(":$key",$value);
+      }
+      return $statement->execute();
+  
+  }
+  public function delete($table,$cond,$limit=1){
+    $sql="DELETE FROM $table WHERE $cond LIMIT $limit";
+    return $this->exec($sql);
+
+  }
+
+
     }
 
 ?>

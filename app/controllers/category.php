@@ -57,6 +57,56 @@
             $this->load->view('addcategory',$message);
 
         }
+
+        public function updatecategory(){
+            
+            $categorymodel=$this->load->model('categorymodel');
+            
+            $table_category_product='tbl_category_product';
+            
+            // $title=$_POST['title'];
+            // $desc=$_POST['description'];
+            $id=4;
+            $cond="tbl_category_product.id_category_product='$id'";
+            
+            $data=array(
+                'title_category_product'=>'title',
+                'desc_category_product'=>'descxx'
+            );
+            $result=$categorymodel->updatecategory($table_category_product,$data,$cond);
+
+
+            if($result==1){
+                echo"update data thanh cong";
+            }else{
+                echo"update data that bai";
+            }
+            
+
+        }
+        public function deletecategory(){
+            
+            $categorymodel=$this->load->model('categorymodel');
+            
+            $table_category_product='tbl_category_product';
+            
+            // $title=$_POST['title'];
+            // $desc=$_POST['description'];
+            
+            $cond="id_category_product=6";
+            
+            $result=$categorymodel->deletecategory($table_category_product,$cond);
+
+
+            if($result==1){
+                echo"delete data thanh cong";
+            }else{
+                echo"delete data that bai";
+            }
+            
+
+        }
+
         
         
     }
