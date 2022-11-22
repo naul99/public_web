@@ -37,8 +37,8 @@
                         <a class="dropdown-toggle" data-toggle="dropdown" href="#">Sản phẩm
                             <span class="caret"></span></a>
                         <ul class="dropdown-menu">
-                            <li><a href="#">Thêm</a></li>
-                            <li><a href="#">Liệt kê</a></li>
+                            <li><a href="<?php echo BASE_URL?>/product/add_product">Thêm</a></li>
+                            <li><a href="<?php echo BASE_URL?>/product/list_product">Liệt kê</a></li>
                            
                         </ul>
                     </li>

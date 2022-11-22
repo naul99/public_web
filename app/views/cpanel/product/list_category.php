@@ -3,8 +3,8 @@
 if(!empty($_GET['msg'])){
 $msg=unserialize(urldecode($_GET['msg']));
 foreach($msg as $key=>$value){
-    //echo '<span style="color:blue;font-weight:bold">'.$value.'</span>';
-    echo '<script>alert("Xóa thành công!");</script>'; 
+    echo '<span style="color:blue;font-weight:bold">'.$value.'</span>';
+    //echo '<script>alert("Xóa thành công!");</script>'; 
 }
 }
 

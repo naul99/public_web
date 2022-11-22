@@ -11,7 +11,7 @@ foreach($msg as $key=>$value){
 
 <h2 style="text-align: center;">Thêm danh mục sản phẩm</h2>
 <div class="col-md-9">
-<form action="<?php echo BASE_URL?>/product/insert_product" method="POST">
+<form action="<?php echo BASE_URL?>/product/insert_category" method="POST">
   <div class="form-group">
     <label for="email">Tên danh mục</label>
     <input type="text" name="title_category_product" class="form-control" >
