@@ -51,6 +51,10 @@
             $sql="SELECT *FROM $table_product ";
             return $this->db->select($sql);
          }
+         public function list_product_index($table_product){
+            $sql="SELECT *FROM $table_product ";
+            return $this->db->select($sql);
+         }
          public function deleteproduct($table_product,$cond){
             return $this->db->delete($table_product,$cond);
 

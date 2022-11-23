@@ -48,6 +48,14 @@ if (!empty($_GET['msg'])) {
         ?>
       </select>
     </div>
+    <div class="form-group">
+      <label for="pwd">Sản phẩm hot</label>
+      <select name="product_hot" class="form-control">
+        <option value="0">Không</option>
+        <option value="1">Có</option>
+       
+      </select>
+    </div>
     <button type="submit" class="btn btn-default">Thêm sản phẩm</button>
   </form>
 </div>

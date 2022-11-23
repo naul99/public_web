@@ -45,6 +45,7 @@
             $title=$_POST['title_product'];
             $desc=$_POST['desc_product'];
             $price=$_POST['price_product'];
+            $hot=$_POST['product_hot'];
             $quantity=$_POST['quantity_product'];
 
             $image=$_FILES['image_product']['name'];
@@ -64,6 +65,7 @@
                'desc_product'=>$desc,
                'price_product'=>$price,
                'quantity_product'=>$quantity,
+               'product_hot'=>$hot,
                'image_product'=>$unique_image,
                'id_category_product'=>$category
             );
@@ -191,6 +193,7 @@
             $table='tbl_product';
             $cond="id_product='$id'";
             $categorymodel=$this->load->model('categorymodel');
+            $hot=$_POST['product_hot'];
             $title=$_POST['title_product'];
             $desc=$_POST['desc_product'];
             $price=$_POST['price_product'];
@@ -216,6 +219,7 @@
                     'title_product'=>$title,
                     'desc_product'=>$desc,
                     'price_product'=>$price,
+                    'product_hot'=>$hot,
                     'quantity_product'=>$quantity,
                     'image_product'=>$unique_image,
                     'id_category_product'=>$category
@@ -228,6 +232,7 @@
                     'title_product'=>$title,
                     'desc_product'=>$desc,
                     'price_product'=>$price,
+                    'product_hot'=>$hot,
                     'quantity_product'=>$quantity,
                     //'image_product'=>$unique_image,
                     'id_category_product'=>$category

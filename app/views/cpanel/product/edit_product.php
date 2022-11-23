@@ -49,6 +49,26 @@ if (!empty($_GET['msg'])) {
         ?>
       </select>
     </div>
+    <div class="form-group">
+      <label for="pwd">Sản phẩm hot</label>
+      <select name="product_hot" class="form-control">
+        <?php
+          if($pro['product_hot']==0){
+            ?>
+            <option selected value="0">Không</option>
+            <option value="1">Có</option>
+        <?php
+          }else{           
+          ?> 
+            <option value="0">Không</option>
+            <option selected value="1">Có</option> 
+          <?php
+          }
+        ?>
+        
+       
+      </select>
+    </div>
     <button type="submit" class="btn btn-default">Cập nhật sản phẩm</button>
   </form>
   <?php
