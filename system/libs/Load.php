@@ -3,12 +3,12 @@
     
      public function __construct(){
               
-         }
+    }
     public function view($fileName, $data=false){
        if($data==true){
         extract($data);
        }
-        include 'app/views/'.$fileName.'.php';
+        include_once 'app/views/'.$fileName.'.php';
 
     }  
     public function model($fileName){

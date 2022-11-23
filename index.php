@@ -6,9 +6,7 @@
     <title>Document</title>
 </head>
 <body>
-    
 
-    <h3>
         <?php
         spl_autoload_register(function($class){
             include_once './system/libs/'.$class.'.php';
@@ -55,15 +53,7 @@
         //     $index->homepage();
         // }
 
-        
-        
-        
-
-       
         ?>
-    </h3>
-
-    
-    
+  
 </body>
 </html>

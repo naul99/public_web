@@ -20,25 +20,26 @@ class Main{
     }else{
         unset($this->url);
     }
-    }
+}
 
-    // if(isset($url[0])){
-    //     include_once ('./app/controllers/'.$url[0].'.php');
-    //     $ctrlr=new $url[0]();
-    //     if(isset($url[2])){
-    //         $ctrlr->{$url[1]}($url[2]);
-    //     }else{
-    //         if(isset($url[1])){
-    //             $ctrlr->{$url[1]}();
-    //         }else{
+//     if(isset($url[0])){
+//         include_once ('./app/controllers/'.$url[0].'.php');
+//         $ctrlr=new $url[0]();
+//         if(isset($url[2])){
+//             $ctrlr->{$url[1]}($url[2]);
+//         }else{
+//             if(isset($url[1])){
+//                 $ctrlr->{$url[1]}();
+//             }else{
 
-    //         }
-    //     }
-    // }else{
-    //     include_once ('./app/controllers/index.php');
-    //     $index=new index();
-    //     $index->homepage();
-    // }
+//             }
+//         }
+//     }else{
+//         include_once ('./app/controllers/index.php');
+//         $index=new index();
+//         $index->homepage();
+//     }
+// }
     public function loadController(){
         if(!isset($this->url[0])){
             include $this->controllerPath.$this->controllerName.'.php';

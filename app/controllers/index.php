@@ -6,19 +6,37 @@
             parent::__construct();
          }
          public function index(){
-            $this->homepage();
+            
+           $this->home();
             
          }
-         public function homepage(){
-            $this->load->view('header'); 
+         public function home(){
+            $table='tbl_category_product';
+            $categorymodel=$this->load->model('categorymodel');
+            $data['category']=$categorymodel->category_home($table);
+            $this->load->view('header',$data); 
+            $this->load->view('silder');
             $this->load->view('home');
             $this->load->view('footer');
         }
-        public function notfound(){
+         public function notfound(){
             $this->load->view('header'); 
-            $this->load->view('404');
+            $this->load->view('silder');
+            $this->load->view('home');
             $this->load->view('footer');
         }
+        // public function danhmuc(){
+        //     $this->load->view('header');
+        //     //$this->load->view('silder');
+        //     $this->load->view('categoryproduct');
+        //     $this->load->view('footer');
+        // }
+        // public function chitietsanpham(){
+        //     $this->load->view('header');
+        //     //$this->load->view('silder');
+        //     $this->load->view('details_product');
+        //     $this->load->view('footer');
+        // }
         
        
         
