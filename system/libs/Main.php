@@ -67,7 +67,7 @@ class Main{
             if(method_exists($this->controller,$this->methodName)){
                 $this->controller->{$this->methodName}($this->url[2]);
             }else{
-                header("Location:".BASE_URL."/index/notfound");
+                header("Location:".BASE_URL."/notfound");
             }
 
         }else{
@@ -76,13 +76,13 @@ class Main{
                 if(method_exists($this->controller,$this->methodName)){
                     $this->controller->{$this->methodName}();
                 }else{
-                    header("Location:".BASE_URL."/index/notfound");
+                    header("Location:".BASE_URL."/notfound");
                 }
             }else{
                 if(method_exists($this->controller,$this->methodName)){
                     $this->controller->{$this->methodName}();
                 }else{
-                    header("Location:".BASE_URL."/index/notfound");
+                    header("Location:".BASE_URL."/notfound");
                 }
 
             }

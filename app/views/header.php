@@ -43,8 +43,8 @@
         <div class="info_top">
             <div class="bg_in">
                 <p class="p_infor">
-                    <span><i class="fa fa-envelope-o" aria-hidden="true"></i>Email: sales@3tmobile.gmail</span>
-                    <span><i class="fa fa-phone" aria-hidden="true"></i> Hotline: 0923-032-992</span>
+                    <span><i class="fa fa-envelope-o" aria-hidden="true"></i>Email: l@gmail.com</span>
+                    <span><i class="fa fa-phone" aria-hidden="true"></i> Hotline: 0000-000-000</span>
                 </p>
             </div>
         </div>
@@ -68,14 +68,14 @@
                                 <div class="hot_line_top">
                                     <span><b>Trụ sở chính</b></span>
                                     <br />
-                                    <span class="red">Nguyễn văn Luông</span>
+                                    <span class="red">Cao Lo</span>
                                 </div>
                             </div>
                             <div class="cols_50">
                                 <div class="hot_line_top">
                                     <span><b>Văn phòng chi nhánh</b></span>
                                     <br />
-                                    <span class="red">Nguyễn văn Luông</span>
+                                    <span class="red">Cao Lo</span>
                                 </div>
                             </div>
                             <div class="clear"></div>

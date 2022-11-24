@@ -41,14 +41,14 @@
                               <a href=".">
                                  <i class="fa fa-mobile" aria-hidden="true"></i> 
                                  <p class="text_li">
-                                    <span class="phone_footer">Hotline:0923-032-992 </span>
+                                    <span class="phone_footer">Hotline:0000-000-000 </span>
                                     <span class="text_small">(Từ 8h đến 20h tất cả các ngày)</span>
                                  </p>
                               </a>
                            </li>
                            <div class="clear"></div>
-                           <li><a><i class="fa fa-envelope" aria-hidden="true"></i>  sales@webextrasite.com</a></li>
-                           <li><a><i class="fa fa-mouse-pointer" aria-hidden="true"></i>  http://webextrasite.com/</a></li>
+                           <li><a><i class="fa fa-envelope" aria-hidden="true"></i>  l@gmail.com</a></li>
+                           <li><a><i class="fa fa-mouse-pointer" aria-hidden="true"></i>  http://abc.com/</a></li>
                         </ul>
                      </div>
                   </div>
@@ -62,7 +62,7 @@
             <div class="bg_in">
                <div class="footer">
                   <div class="infor_company">
-                     <h3>CÔNG TY THIẾT KẾ WEBSITE WEBEXTRASITE.COM</h3>
+                     <h3>CÔNG TY THIẾT KẾ WEBSITE ABC.COM</h3>
                      <a href=""><img src="image/da-dang-ky-voi-bo-cong-thuong.png"  alt="da-dang-ky-voi-bo-cong-thuong.png" class="cangiua" /></a>
                      <p class="note_mst">GPĐKKD số: 7777777. Cấp lần 1: 10/10/2015. Thay đổi: 10/10/2010. Nơi cấp: Phòng đăng ký kinh doanh Sở kế hoạch đầu tư TP Hồ Chí Minh</p>
                   </div>
@@ -70,9 +70,9 @@
                      <h4>TRỤ SỞ CHÍNH</h4>
                      <div class="infor_footer">
                         <address>
-                        <address>Địa Chỉ : 439/4/20 KP1,Phường Tân Thới Hiệp,Quận 12,TPHCM <br />
-                           Điện thoại: 0923-032-992<br />
-                           Email: sales@webextrasite.com
+                        <address>Địa Chỉ : 2 Cao Lo,Phường 4,Quận 8,TPHCM <br />
+                           Điện thoại: 0000-000-000<br />
+                           Email: l@gmail.com
                         </address>
                         </address>
                      </div>
@@ -81,9 +81,9 @@
                      <h4>VĂN PHÒNG ĐẠI DIỆN</h4>
                      <div class="infor_footer">
                         <address>
-                        <address>Địa Chỉ : 439/4/20 KP1,Phường Tân Thới Hiệp,Quận 12,TPHCM <br />
-                           Điện thoại: 0923-032-992<br />
-                           Email: sales@webextrasite.com
+                        <address>Địa Chỉ : 2 Cao Lo,Phường 4,Quận 8,TPHCM <br />
+                           Điện thoại: 0000-000-000<br />
+                           Email: l@gmail.com
                         </address>
                         </address>
                      </div>
@@ -95,7 +95,7 @@
          </div>
          <div class="clear"></div>
          <div class="copyright">
-            <h4 class="tkw9999">&copy;  © Bản quyền thuộc về Webextrasite. Designed by <a href="http://webextrasite.com/" rel="dofollow" target="_blank">Thiet Ke Web</a> Bởi <a href="http://webextrasite.com/">Webextrasite.com</a></h4>
+            <h4 class="tkw9999">&copy;  © Bản quyền thuộc về Abc. Designed by <a href="." rel="dofollow" target="_blank">Thiet Ke Web</a> Bởi <a href=".">Abc.com</a></h4>
          </div>
       </footer>
       <div class="coccoc-alo-phone coccoc-alo-green coccoc-alo-show" id="coccoc-alo-phoneIcon" >

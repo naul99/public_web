@@ -1103,7 +1103,7 @@
         </div>
         <div class="clear"></div>
         <div class="copyright">
-            <h4 class="tkw9999">&copy;  © Bản quyền thuộc về Webextrasite. Designed by <a href="http://webextrasite.com/" rel="dofollow" target="_blank">Thiet Ke Web</a> Bởi <a href="http://webextrasite.com/">Webextrasite.com</a></h4>
+            <h4 class="tkw9999">&copy;  © Bản quyền thuộc về Webextrasite. Designed by <a href="" rel="dofollow" target="_blank">Thiet Ke Web</a> Bởi <a href=".">abc.com</a></h4>
         </div>
     </footer>
     <div class="coccoc-alo-phone coccoc-alo-green coccoc-alo-show" id="coccoc-alo-phoneIcon">
