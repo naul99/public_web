@@ -129,7 +129,7 @@
                 </div>
                 <div class="clear"></div>
             </div>
-            <div class="module_pro_all">
+            <!-- <div class="module_pro_all">
                 <div class="box-title">
                     <div class="title-bar">
                         <h1>Phụ kiện</h1>
@@ -170,7 +170,7 @@
                     <div class="clear"></div>
                 </div>
                 <div class="clear"></div>
-            </div>
+            </div> -->
 
     </section>
     <!--end:body-->

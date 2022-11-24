@@ -43,6 +43,12 @@
                         foreach($list_product as $key=>$product){
                         
                     ?>
+                    <form action="<?php echo BASE_URL?>/giohang/themgiohang" method="POST">
+                    <input type="hidden" value="<?php echo $product['id_product']?>" name="product_id">
+                    <input type="hidden" value="<?php echo $product['title_product']?>" name="product_title">
+                    <input type="hidden" value="<?php echo $product['image_product']?>" name="product_image">
+                    <input type="hidden" value="<?php echo $product['price_product']?>" name="product_price">
+                    <input type="hidden" value="1" name="product_quantity">
                     <div class="grids">
                         <div class="grids_in">
                             <div class="content">
@@ -67,9 +73,7 @@
                                     </a>
                                 </div>
                                 <div class="add_card">
-                                    <a onclick="return giohang(579);">
-                                        <i class="fa fa-shopping-cart" aria-hidden="true"></i> Đặt hàng
-                                    </a>
+                                <input type="submit" style="box-shadow: none;" class="btn btn-success" name="addcart" value="Đặt hàng">
                                 </div>
                                 <div class="price_old_new">
                                     <div class="price">
@@ -79,6 +83,7 @@
                             </div>
                         </div>
                     </div>
+                    </form>
                     <?php
                         }
                     }

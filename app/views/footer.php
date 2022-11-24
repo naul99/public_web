@@ -116,6 +116,8 @@
       <script defer src="<?php echo BASE_URL ?>/public/js/jquery.lazyload.min.js" type="text/javascript"></script>
       <script defer type="text/javascript" src="<?php echo BASE_URL ?>/public/js/script_ex.js"></script>
       <script defer type="text/javascript" src="<?php echo BASE_URL ?>/public/js/script_menu.js"></script>
+      
+      
 
       <!-- <link rel="stylesheet" type="text/css" href="template/Default/js/sweet-alert.css"/> -->
     <script type="text/javascript">

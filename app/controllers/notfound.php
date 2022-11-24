@@ -22,7 +22,10 @@
         //     $this->load->view('footer');
         // }
          public function notfound(){
-            $this->load->view('header'); 
+            $table='tbl_category_product';
+            $categorymodel=$this->load->model('categorymodel');
+            $data['category']=$categorymodel->category_home($table);
+            $this->load->view('header',$data);
             //$this->load->view('silder');
             $this->load->view('page404/404');
             $this->load->view('footer');
