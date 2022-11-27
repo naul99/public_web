@@ -39,6 +39,7 @@
 
            if($count==0){
             $message['msg']="user or pass invaild";
+
             header("Location:".BASE_URL."/login");
            }else
            {

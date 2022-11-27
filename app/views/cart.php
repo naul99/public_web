@@ -75,9 +75,9 @@
                            <td data-th="Thành tiền" class="text_center"><span class="color_red font_money"><?php echo number_format($subtotal,0,",",".").'đ'?></span></td>
                            <td class="actions aligncenter" >
                               
-                              <button type="submit" class="btn-sm btn-danger" style="box-shadow: none;" value="<?php echo $value['product_id'] ?>" name="delete_cart">Xóa</button>
+                              <button type="submit" class="btn-sm btn-danger" style="box-shadow: none; margin:2px" value="<?php echo $value['product_id'] ?>" name="delete_cart">Xóa</button>
                               
-                              <button type="submit" class="btn-sm btn-primary" style="box-shadow: none;" value="<?php echo $value['product_id'] ?>"name="update_cart">Cập nhật</button>
+                              <button type="submit" class="btn-sm btn-primary" style="box-shadow: none;margin:2px" value="<?php echo $value['product_id'] ?>"name="update_cart">Sửa</button>
                            </td>
                            
                         </tr>
