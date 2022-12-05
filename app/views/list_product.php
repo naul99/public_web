@@ -73,7 +73,7 @@
                                     </a>
                                 </div>
                                 <div class="add_card">
-                                <input type="submit" style="box-shadow: none;" class="btn btn-success" name="addcart" value="Đặt hàng">
+                                <input type="submit" style="box-shadow: none;" class="btn btn-warning" name="addcart" value="Đặt hàng">
                                 </div>
                                 <div class="price_old_new">
                                     <div class="price">
