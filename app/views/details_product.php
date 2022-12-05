@@ -173,9 +173,9 @@ foreach ($details_product as $key => $value) {
                            <div class="bx-contact">
                               <span class="title-cnt">Bạn cần hỗ trợ?</span>
                               <p>Chat với chúng tôi :</p>
-                              <p><img alt="icon skype " src="image/icon skype.png" style="height:24px; width:24px" />&nbsp;<a href="skype:quangtran.123corp?chat">thietbivanphong.com</a></p>
-                              <p><img alt="icon skype " src="image/icon skype.png" style="height:24px; width:24px" />&nbsp;<a href="skype:quangtran.123corp?chat">thietbivanphong.com</a></p>
-                              <p><img alt="icon skype " src="image/icon skype.png" style="height:24px; width:24px" />&nbsp;<a href="skype:quangtran.123corp?chat">thietbivanphong.com</a></p>
+                              <p><img alt="icon skype " src="image/icon skype.png" style="height:24px; width:24px" />&nbsp;<a href="">abc.com</a></p>
+                              <p><img alt="icon skype " src="image/icon skype.png" style="height:24px; width:24px" />&nbsp;<a href="">abc.com</a></p>
+                              <p><img alt="icon skype " src="image/icon skype.png" style="height:24px; width:24px" />&nbsp;<a href="">abc.com</a></p>
                               <!--<div class="sup-item item1">
                                  <div>
                                  
