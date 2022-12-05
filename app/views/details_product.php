@@ -69,7 +69,7 @@ foreach ($details_product as $key => $value) {
 
                            <div id="sync2" class="owl-carousel owl-theme">
                               <div class="item">
-                                 <img src="<?php echo BASE_URL ?>/public/image/iphone.png" width="100%">
+                                 <img src="<?php echo BASE_URL ?>/public/uploads/product/<?php echo $detail['image_product'] ?>" width="100%">
                               </div>
                               <div class="item">
                                  <img src="<?php echo BASE_URL ?>/public/image/iphone1.jpg" width="100%">
