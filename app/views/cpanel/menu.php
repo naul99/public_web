@@ -4,9 +4,9 @@
                     <a class="navbar-brand" href="<?php echo BASE_URL?>/login/dashboard">Admin Cpanel</a>
                 </div>
                 <ul class="nav navbar-nav">
-                    <li class="active"><a href="<?php echo BASE_URL?>/login/dashboard">Trang chủ</a></li>
+                    <li class=""><a href="<?php echo BASE_URL?>/login/dashboard">Trang chủ</a></li>
 
-                    <li class="dropdown">
+                    <li class="dropdown ">
                         <a class="dropdown-toggle" data-toggle="dropdown" href="#">Danh mục Bài viết
                             <span class="caret"></span></a>
                         <ul class="dropdown-menu">

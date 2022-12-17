@@ -20,6 +20,56 @@
             $this->load->view('cart');
             $this->load->view('footer');
         }
+        public function dathang()
+        {
+            Session::init();
+            $table_order="tbl_order";
+            $table_order_detail="tbl_order_detail";
+            $ordermodel=$this->load->model('ordermodel');
+             $name=$_POST['name'];
+             $sodienthoai=$_POST['sodienthoai'];
+             $email=$_POST['email'];
+             $diachi=$_POST['diachi'];
+             $noidung=$_POST['noidung'];
+             $order_code=rand(0,9999);
+
+             date_default_timezone_set("asia/ho_chi_minh");
+             $date=date("d/m/Y");
+             $hour=date("h:i:sa");
+             $order_date=$date.$hour;
+             $data_order=array(
+                    'order_status'=>0,
+                    'order_code'=>$order_code,
+                    'order_date'=>$date.' '.$hour
+             );
+             $result_order=$ordermodel->insert_order($table_order,$data_order);
+            if(Session::get("shopping_cart")==true){
+             foreach(Session::get("shopping_cart") as $key =>$value){
+                $data_details=array(
+                    'order_code'=>$order_code,
+                    'product_id'=>$value['product_id'],
+                    'product_quantity'=>$value['product_quantity'],
+                    'name'=>$name,
+                    'sodienthoai'=>$sodienthoai,
+                    'email'=>$email,
+                    'diachi'=>$diachi,
+                    'noidung'=>$noidung
+                   
+                );
+                $result_order_detail=$ordermodel->insert_order_detail($table_order_detail,$data_details);
+
+             }
+             unset($_SESSION["shopping_cart"]);
+             
+
+            }
+            echo '<div>';
+           echo '<script>';
+           echo 'window.alert("Xin chào!")';                                     
+           echo '</script>';
+           echo '</div>';
+           header("Location:".BASE_URL.'/giohang');
+        }
         public function themgiohang(){
             Session::init();
             //Session::destroy();
@@ -82,6 +132,8 @@
             header("Location:".BASE_URL.'/giohang');
             }      
     } 
+
+
 }  
     
 

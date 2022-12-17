@@ -99,7 +99,7 @@
          </div>
       </footer>
       <div class="coccoc-alo-phone coccoc-alo-green coccoc-alo-show" id="coccoc-alo-phoneIcon" >
-         <a href="tel:090909090" title="Gọi ngay cho chúng tôi">
+         <a href="tel:000000000" title="Gọi ngay cho chúng tôi">
             <div class="coccoc-alo-ph-circle"></div>
             <div class="coccoc-alo-ph-circle-fill"></div>
             <div class="coccoc-alo-ph-img-circle"></div>
